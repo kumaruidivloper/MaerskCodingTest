@@ -1,7 +1,6 @@
  body {
     min-height: 100vh;
     background-color: tan;
-    font-family: 'Raleway';
   }
 
 
@@ -69,6 +68,7 @@ main {
   font-size: 30px;
 }
 
+
 /* Tablet style */
 @media screen and (max-width: 960px) {
 
@@ -84,13 +84,19 @@ main {
     flex-direction: row;
   }
 
+
+
+
   main {
     flex: 1 0 auto;
     flex-grow: 1;
-    flex-flow: row;
+    flex-flow: column;
+    min-height: 50px;
   }
 
   .item {
     flex-flow: row;
+    flex: 1 0 10%;
+    line-height: 99px;
   }
 }
