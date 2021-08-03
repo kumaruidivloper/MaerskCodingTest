@@ -19,10 +19,10 @@
   background: #6f98a8;
 }
 .five {
-  background: #999999;
+  background: #11a536;
 }
 .six {
-  background: #bfbfbf;
+  background: #b40a0a;
 }
 .seven {
   background: #633434;
@@ -51,7 +51,7 @@
 } */
 
 main {
-  background-color: #678;
+  background-color: #fff;
   color: #EEE;
   flex: 1 0 auto;
   display: flex;
@@ -75,17 +75,23 @@ main {
   .container {
     flex-direction: column;
   }
+
+  .leftSideColor {
+    display: none;
+  }
   
 }
 
 /* Phone style */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 650px) {
   .container {
     flex-direction: row;
   }
 
 
-
+  .leftSideColor {
+    display: block;
+  }
 
   main {
     flex: 1 0 auto;
@@ -98,5 +104,57 @@ main {
     flex-flow: row;
     flex: 1 0 10%;
     line-height: 99px;
+    position:relative;
+    margin-bottom: 5px;
+  }
+  .item:after {
+    content:'\A';
+    position:absolute;
+    background:white;
+    top:0; bottom:0;
+    left:0; 
+    width:3%;
+  }
+
+  .item.one:after {
+    background: #000000;
+  }
+
+  .item.two:after {
+    background: #2bbead;
+  }
+
+  .item.three:after {
+    background:#333333;
+  }
+
+  .item.four:after {
+    background: #6f98a8;
+  }
+  .item.five:after {
+    background: #11a536;
+  }
+  .item.six:after {
+    background: #b40a0a;
+  }
+  .item.seven:after {
+    background: #633434;
+  }.item.eight:after {
+    background: #2f454e;
+  }.item.nine:after {
+    background: #72c3dc;
+  }
+
+  .item.one,
+  .item.two,
+  .item.three,
+  .item.four,
+  .item.five,
+  .item.six,
+  .item.seven,
+  .item.eight,
+  .item.nine {
+    background-color: #b5bcc2;
+    color: #000;
   }
 }

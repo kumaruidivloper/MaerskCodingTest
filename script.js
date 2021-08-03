@@ -15,8 +15,8 @@ var map = new Map([
 function display(array) {
 for(let i = 0;i < array.length; ++i){
 	document.getElementById(i).innerHTML = array[i];
-    document.getElementById(i).classList.remove(document.getElementById(i).classList.item(1));
-    document.getElementById(i).classList.add(map.get(array[i]));
+  document.getElementById(i).classList.remove(document.getElementById(i).classList.item(1));
+  document.getElementById(i).classList.add(map.get(array[i]));
 }
 }
 
