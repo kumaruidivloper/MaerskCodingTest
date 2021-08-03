@@ -1,110 +1,13 @@
 <!DOCTYPE html>
 <html>
+<head>
+<head>
+  <link rel="stylesheet" href="./style.css">
+</head>
+</head>
 <body onload="myLoad()">
 
-<style>
 
-  body {
-    min-height: 100vh;
-    background-color: tan;
-    font-family: 'Raleway';
-  }
-
-
-
-
-.one {
-  background: #000000;
-}
-.two {
-  background: #2bbead;
-}
-.three {
-  background: #333333;
-}
-.four {
-  background: #6f98a8;
-}
-.five {
-  background: #999999;
-}
-.six {
-  background: #bfbfbf;
-}
-.seven {
-  background: #633434;
-}
-.eight {
-  background: #2f454e;
-}
-.nine {
-  background: #72c3dc;
-}
-
-.container {
-  background-color: yellowgreen;
-  min-height: 80vh;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-}
-
-/* header {
-  background-color: #456;
-  color: #EEE;
-  min-width: 300px;
-} */
-
-main {
-  background-color: #678;
-  color: #EEE;
-  flex: 1 0 auto;
-  display: flex;
-  flex-flow: row wrap;
-  flex-grow: 3;
-  min-height: 80vh;
-}
-
-.item {
-  min-height: 100px;
-  flex: 1 0 30%;
-  line-height: 300px;
-  text-align: center;
-  font-size: 30px;
-}
-
-/* Tablet style */
-@media screen and (max-width: 960px) {
-
-  .container {
-    flex-direction: column;
-  }
-  
-}
-
-/* Phone style */
-@media screen and (max-width: 360px) {
-  .container {
-    flex-direction: row;
-  }
-
-  main {
-    flex: 1 0 auto;
-    flex-grow: 1;
-    flex-flow: row;
-  }
-
-  .item {
-    flex-flow: row;
-  }
-}
-
-
-
-
-</style>
 <div class="container">
     <main>
       <div id="0" class="item"></div>
@@ -127,49 +30,6 @@ main {
     </div>
   </div>
 </div>
-
-<script>
-
-array= [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
-var map = new Map([
-  [1, 'one'],
-  [2, 'two'],
-  [3, 'three'],
-  [4, 'four'],
-  [5, 'five'],
-  [6, 'six'],
-  [7, 'seven'],
-  [8, 'eight'],
-  [9, 'nine']
-]);
-
-function display(array) {
-for(let i = 0;i < array.length; ++i){
-	document.getElementById(i).innerHTML = array[i];
-    document.getElementById(i).classList.remove(document.getElementById(i).classList.item(1));
-    document.getElementById(i).classList.add(map.get(array[i]));
-}
-}
-
-
-function myLoad() {
-  for(let i = 0;i < array.length; ++i){
-      document.getElementById(i).innerHTML = array[i];
-      document.getElementById(i).classList.add(map.get(array[i]));
-  }
-}
-
-function shuffle() {
-  arrayShuffled = array.sort(() => 0.5 - Math.random());
-  display(arrayShuffled);
-}
-
-function short() {
- arrayShort = array.sort((a,b) => a-b);
- display(arrayShort);
-}
-</script>
-
+<script src="./script.js"></script>
 </body>
 </html> 
