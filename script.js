@@ -23,6 +23,10 @@ for(let i = 0;i < array.length; ++i){
 
 function myLoad() {
   for(let i = 0;i < array.length; ++i){
+      subElement = document.createElement('div');
+      subElement.setAttribute('id', i);
+      subElement.setAttribute('class', 'item');
+      document.getElementById('main').append(subElement);
       document.getElementById(i).innerHTML = array[i];
       document.getElementById(i).classList.add(map.get(array[i]));
   }
