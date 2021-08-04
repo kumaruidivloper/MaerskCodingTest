@@ -1,180 +1,175 @@
- body {
-    min-height: 100vh;
-    background-color: tan;
-  }
-
-
-
-
-.one {
-  background: #000000;
+* {
+  margin: 0px;
+  padding: 0px;
 }
-.two {
-  background: #2bbead;
-}
-.three {
-  background: #333333;
-}
-.four {
-  background: #6f98a8;
-}
-.five {
-  background: #11a536;
-}
-.six {
-  background: #b40a0a;
-}
-.seven {
-  background: #633434;
-}
-.eight {
-  background: #2f454e;
-}
-.nine {
-  background: #72c3dc;
-}
-
 .container {
-  background-color: yellowgreen;
-  min-height: 80vh;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 99%;
+  height: 99vh;
+  align-items: center; /* Vertical */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contentHolder{
+  width: 800px;
+  border: #ded9d9 solid 1px;
+  min-height: 500px;
   display: flex;
   flex-direction: row;
+  background-color: #dfdada;
+  border-radius: 10px;
 }
-
-/* header {
-  background-color: #456;
-  color: #EEE;
-  min-width: 300px;
-} */
-
-main {
-  background-color: #fff;
-  color: #EEE;
-  flex: 1 0 auto;
+.numberHolder {
   display: flex;
-  flex-flow: row wrap;
   flex-grow: 3;
-  min-height: 80vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
 }
-
-.item {
-  min-height: 100px;
-  flex: 1 0 30%;
-  line-height: 300px;
+.ButtonHolder {
+  flex-grow: 1;
+  padding: 20px;
   text-align: center;
-  font-size: 30px;
 }
-
+.item {
+  width: 30%;
+  height: 30%;
+  padding: 5px;
+  text-align: center;
+  line-height: 144px;
+  color: white;
+  font-size: 35px;
+}
+.buttonStyle {
+  padding: 8px 20px;
+  background-color: #6bb5b5;
+  border-radius: 4px;
+  color: black;
+  border-color: #dfdada;
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 /* Tablet style */
 @media screen and (max-width: 960px) {
-
-  .container {
-    flex-direction: column;
-  }
-
-  .leftSideColor {
-    display: none;
-  }
-  
 }
+
 
 /* Phone style */
 @media screen and (max-width: 650px) {
-  .container {
-    flex-direction: row;
-  }
+.contentHolder {
+flex-direction: column-reverse;
+}
+
+.ButtonHolder {
+padding: 10px;
+text-align: center;
+}
+
+.buttonStyle {
+padding: 8px 20px;
+border-radius: 4px;
+color: black;
+display: inline;
+align-items: center;
+float: none;
+clear: none;
+width: 20%;
+margin-bottom: 0px;
+}
 
 
-  .leftSideColor {
-    display: block;
-  }
+.item {
+flex-flow: column;
+flex: 1 0 100%;
+height: 20%;
+line-height: 50px;
+position:relative;
+margin-bottom: 5px;
+font-size: 25px;
+}
+.item:after {
+content:'\A';
+position:absolute;
+background:white;
+top:0; bottom:0;
+left:0; 
+width:2%;
+}
 
-  main {
-    flex: 1 0 auto;
-    flex-grow: 1;
-    flex-flow: column;
-    min-height: 50px;
-  }
+.item.one:after {
+background: #000000;
+}
 
-  .item {
-    flex-flow: row;
-    flex: 1 0 10%;
-    line-height: 99px;
-    position:relative;
-    margin-bottom: 5px;
-  }
-  .item:after {
-    content:'\A';
-    position:absolute;
-    background:white;
-    top:0; bottom:0;
-    left:0; 
-    width:3%;
-  }
+.item.two:after {
+background: #2bbead;
+}
 
-  .item.one:after {
-    background: #000000;
-  }
+.item.three:after {
+background:#333333;
+}
 
-  .item.two:after {
-    background: #2bbead;
-  }
+.item.four:after {
+background: #6f98a8;
+}
+.item.five:after {
+background: #11a536;
+}
+.item.six:after {
+background: #b40a0a;
+}
+.item.seven:after {
+background: #633434;
+}.item.eight:after {
+background: #2f454e;
+}.item.nine:after {
+background: #72c3dc;
+}
 
-  .item.three:after {
-    background:#333333;
-  }
-
-  .item.four:after {
-    background: #6f98a8;
-  }
-  .item.five:after {
-    background: #11a536;
-  }
-  .item.six:after {
-    background: #b40a0a;
-  }
-  .item.seven:after {
-    background: #633434;
-  }.item.eight:after {
-    background: #2f454e;
-  }.item.nine:after {
-    background: #72c3dc;
-  }
-
-  .item.one,
-  .item.two,
-  .item.three,
-  .item.four,
-  .item.five,
-  .item.six,
-  .item.seven,
-  .item.eight,
-  .item.nine {
-    background-color: #b5bcc2;
-    color: #000;
-  }
-
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-and (min-device-width: 375px) 
-and (max-device-width: 812px) 
-and (-webkit-min-device-pixel-ratio: 3) {
+.item.one,
+.item.two,
+.item.three,
+.item.four,
+.item.five,
+.item.six,
+.item.seven,
+.item.eight,
+.item.nine {
+background-color: #b5bcc2;
+color: #000;
+}
 
 }
 
-/* ----------- iPad Pro 12.9" ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
+.one {
+background: #000000;
 }
+.two {
+background: #2bbead;
+}
+.three {
+background: #333333;
+}
+.four {
+background: #6f98a8;
+}
+.five {
+background: #11a536;
+}
+.six {
+background: #b40a0a;
+}
+.seven {
+background: #633434;
+}
+.eight {
+background: #2f454e;
+}
+.nine {
+background: #72c3dc;
 }

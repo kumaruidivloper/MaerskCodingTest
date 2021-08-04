@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<head>
-  <link rel="stylesheet" href="./style.css">
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maersk Coding Test</title>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body onload="myLoad()">
-
-
-<div class="container">
-    <main id="main"></main>
-</div>
-
-<div>
-  <div class="buttonHolder">
-    <div style="float: right; width: 10%; margin-top: 50px;">
-      <button onclick="shuffle()">Shuffle</button>
-      <button onclick="short()">Short</button>
+    <div class="container">
+        <div class="contentHolder">
+            <div id="main" class="numberHolder"></div>
+            <div class="ButtonHolder">
+                <button class="buttonStyle" onclick="shuffle()">Shuffle</button>
+                <button class="buttonStyle" onclick="short()">Sort</button>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+
 <script src="./script.js"></script>
 </body>
-</html> 
+</html>
