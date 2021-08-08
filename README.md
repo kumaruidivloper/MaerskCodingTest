@@ -996,6 +996,12 @@ Bonus content! Another way to align Flexbox child elements is to use auto margin
 **[⬆ back to top](#flexbox-quickView)**
 
 
+# Flex PDF
+
+[flexboxsheet.pdf](https://github.com/kumaruidivloper/MaerskCodingTest/files/6950274/flexboxsheet.pdf)
+
+**[⬆ back to top](#flexbox-quickView)**
+
 
 # Flex Guid
 
