@@ -4,7 +4,7 @@ Read this on my new website: [samanthaming.com/flexbox30/](https://www.samantham
 
 Learn Flexbox in 30 days with 30 code tidbits ✨
 
-<img src="flexbox30-cover.png" alt="Flexbox Cover" width="350">
+<img width="350" alt="001" src="https://user-images.githubusercontent.com/30646609/128621272-9a974489-cb5d-4300-853a-92eae1754ac1.png">
 
 ## Table of Contents
 
@@ -53,7 +53,7 @@ Learn Flexbox in 30 days with 30 code tidbits ✨
 
 Before Flexbox, we were mainly using floats for layout. And for those CSS developers, we all know the frustrations and limitations of the old way -- especially the ability to vertically center inside a parent. Ugh, that was so annoying! Not anymore! Flexbox for the win!
 
-<p><img src="code-tidbits/1-flexbox-intro.png" alt="Flexbox Introduction" width="500"></p>
+<p><img width="500" alt="Day1" src="https://user-images.githubusercontent.com/30646609/128621274-00bfbd77-6cc3-46dc-ad89-8ec1782f532a.png"></p>
 
 <a id="flex-container-and-flex-items"></a>
 
@@ -61,7 +61,10 @@ Before Flexbox, we were mainly using floats for layout. And for those CSS develo
 
 In order to get Flexbox to work, you need to set up the Parent-Child relationship. The parent is the flex container, and everything within it is the children or flex items.
 
-<p><img src="code-tidbits/2-flex-container-and-flex-items.png" alt="Flex Container & Flex Items" width="500"></p>
+<p>
+  <img width="500" alt="Day2" src="https://user-images.githubusercontent.com/30646609/128621276-c05f1ae2-b28e-4186-ac43-fbdde14e0d88.png">
+
+</p>
 
 <a id="immediate-child-only"></a>
 
@@ -73,7 +76,9 @@ Of course, you can establish a Flexbox as long as there is a parent-child relati
 
 This is probably one of the most important concepts that helped me understand how Flexbox works. And knowing this will help solve a lot of those "hey, why isn't this working" moments 😅
 
-<p><img src="code-tidbits/3-immediate-child-only.png" alt="Immediate Child Only" width="500"></p>
+<p>
+  <img width="500" alt="Day3" src="https://user-images.githubusercontent.com/30646609/128621277-1ce0d398-fff6-4a93-ae69-d32e3d13d65b.png">
+</p>
 
 <a id="flexbox-axes"></a>
 
@@ -83,7 +88,9 @@ Flexbox operates in a 2 axes system: a main and a cross axis. The main axis is y
 
 Remember in math class, we were taught **x** and **y** axis. Well, throw that out. Because the main axis can be horizontal or vertical. The **x** axis is not always the main axis. This was a mistake I made, so hopefully you won’t make the same incorrect assumption as I did 😅
 
-<p><img src="code-tidbits/4-flexbox-axes.png" alt="Flexbox Axes" width="500"></p>
+<p>
+  <img width="500" alt="Day4" src="https://user-images.githubusercontent.com/30646609/128621279-4befd068-6c60-4437-87ee-622fd941c5ee.png">
+</p>
 
 <a id="flexbox-module"></a>
 
@@ -93,7 +100,9 @@ Let's zoom in on one of the layouts and check out the anatomy of our Flexbox. On
 
 And this concludes our Flexbox Fundamentals.
 
-<p><img src="code-tidbits/5-flexbox-module.png" alt="Flexbox Module" width="500"></p>
+<p>
+  <img width="500" alt="Day5" src="https://user-images.githubusercontent.com/30646609/128621281-4b96a548-4c9f-419c-b444-ddaf86bee4b1.png">
+</p>
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -105,7 +114,9 @@ And this concludes our Flexbox Fundamentals.
 
 Now you know Flex operates in a Parent-Child relationship. So we have 2 entities involved to get this tango started. And each entity will have its own set of unique CSS properties that can be applied to them. That's why it's important that you know which element is the parent and which element(s) is the child. Let's get started with the parent properties 🤰
 
-<p><img src="code-tidbits/6-parent-properties.png" alt="Parent Properties" width="500"></p>
+<p>
+  <img width="500" alt="Day6" src="https://user-images.githubusercontent.com/30646609/128621282-0db10655-14c7-4d32-bb95-8bd91bb22457.png">
+</p>
 
 <a id="display"></a>
 
@@ -115,7 +126,9 @@ To start this Flexbox party, we need to first create our flex container. This is
 
 There are 2 types of flex container: `flex` will create a *block* level flex container. And `inline-flex` will create an *inline* level flex container. More on *block* and *inline* tomorrow 😉
 
-<p><img src="code-tidbits/7-display.png" alt="Display" width="500"></p>
+<p>
+  <img width="500" alt="Day7" src="https://user-images.githubusercontent.com/30646609/128621284-83388599-1a93-4ddd-bc16-20957ab36ce0.png">
+</p>
 
 ```css
 .parent {
@@ -130,7 +143,9 @@ There are 2 types of flex container: `flex` will create a *block* level flex con
 
 Very simply explained, `block` element takes up the entire width of the container. They look like building blocks where each block is stacked on each other. Whereas `inline` element only takes up the space it needs. So they appear to be in a line, or side by side of each other.
 
-<p><img src="code-tidbits/8-block-vs-inline.png" alt="block vs inline" width="500"></p>
+<p>
+  <img width="500" alt="Day8" src="https://user-images.githubusercontent.com/30646609/128621285-a0204e4d-9e4d-4410-863a-35bae2de61dc.png">
+</p>
 
 <a id="flex-direction"></a>
 
@@ -138,7 +153,9 @@ Very simply explained, `block` element takes up the entire width of the containe
 
 This is the property that allows us to define our main axis. Remember I mentioned that our main axis can be horizontal or vertical. So if we want the main axis to be horizontal, that's called **row**. And if we want it to be vertical, that's called **column**. Also, remember we had a **main start** and **main end**. We simply add a `reverse` suffix to set our "main start" in the reverse direction. Pretty cool eh 👍
 
-<p><img src="code-tidbits/9-flex-direction.png" alt="flex-direction" width="500"></p>
+<p>
+  <img width="500" alt="Day9" src="https://user-images.githubusercontent.com/30646609/128621286-460ea2fb-c272-4303-85f6-0210f16c1501.png">
+</p>
 
 ```css
 .parent {
@@ -157,7 +174,9 @@ By default, flex items will try to shrink itself to fit onto one line, in other 
 
 This property is what will allow flex items in your container to occupy more than one line.
 
-<p><img src="code-tidbits/10-flex-wrap.png" alt="flex-wrap" width="500"></p>
+<p>
+  <img width="500" alt="Day10" src="https://user-images.githubusercontent.com/30646609/128621288-4681f6e6-4fa7-4fdb-b1f8-cf3fba58085c.png">
+</p>
 
 ```css
 .parent {
@@ -175,7 +194,9 @@ So we've learned `flex-direction` and `flex-wrap`. If you understand those 2, yo
 
 You can set both properties at the same time. Or you can just pass one of them. The default value is `row nowrap`. So if you just set one value, the property that you didn't set will just take on the default value.
 
-<p><img src="code-tidbits/11-flex-flow.png" alt="flex-flow" width="500"></p>
+<p>
+  <img width="500" alt="Day11" src="https://user-images.githubusercontent.com/30646609/128621289-ba37e96c-ac3f-488f-a25a-cb35a1d2283c.png">
+</p>
 
 ```css
 .parent {
@@ -194,7 +215,9 @@ Here comes the fun part. This is the property that sets alignment along the main
 
 This is probably my most used parent property. You just choose the layout you like and BAM Flexbox automatically does it for you. And it's absolutely responsive. As your grow or shrink the window width, Flexbox will do the behind-the-scene calculation and ensure that your chosen layout is maintained. It's like one of those kitchen appliances where "you set it and forget it" 🍗
 
-<p><img src="code-tidbits/12-justify-content-row.png" alt="justify-content row" width="500"></p>
+<p>
+  <img width="500" alt="Day12" src="https://user-images.githubusercontent.com/30646609/128621290-89c4e6c2-165e-435b-b8ac-4e4f1ce130b9.png">
+</p>
 
 ```css
 .parent {
@@ -213,7 +236,9 @@ This is probably my most used parent property. You just choose the layout you li
 
 The main axis can also lie vertically. In that case, flex-direction is set to `column`. Here's how the flex items will be aligned in that instance.
 
-<p><img src="code-tidbits/14-justify-content-column.png" alt="justify-content column" width="500"></p>
+<p>
+  <img width="500" alt="Day13" src="https://user-images.githubusercontent.com/30646609/128621291-c6c0aeb4-1c7a-4c46-a92c-b9829094df43.png">
+</p>
 
 ```css
 .parent {
@@ -234,7 +259,9 @@ The main axis can also lie vertically. In that case, flex-direction is set to `c
 
 You might not notice the subtle difference between space-around and space-evenly. So let's talk about it. In `space-evenly`, the empty space in between the flex items is always equal. However, in `space-around`, only the inner items will have equal spacing in between each other. The first and last item will only be allocated half the spacing. Giving the visual appearance of it being more spread out. One may say these folks like to live life on the edge 😂
 
-<p><img src="code-tidbits/13-space-around-vs-space-evenly.png" alt="space-around vs space-evenly" width="500"></p>
+<p>
+  <img width="500" alt="Day14" src="https://user-images.githubusercontent.com/30646609/128621292-c5dd09f9-a019-4420-9da6-b9c138a23be7.png">
+</p>
 
 <a id="align-items-row"></a>
 
@@ -242,7 +269,9 @@ You might not notice the subtle difference between space-around and space-evenly
 
 So justify-content controls how items are laid out on the main axis. What about their layout in the cross axis? Don't worry, that's where `align-items` come into play. Remember the cross axis is always perpendicular to the main axis. So if the main axis is sitting horizontally, where flex-direction is `row`. Then , the cross axis is sitting vertically. Aren't you glad we spend almost a week on the fundamentals, that knowledge is all being applied now 🤓
 
-<p><img src="code-tidbits/15-align-items-row.png" alt="align-items row" width="500"></p>
+<p>
+  <img width="500" alt="Day15" src="https://user-images.githubusercontent.com/30646609/128621295-e8c00546-a6eb-426c-a4b9-6b4db6f3c983.png">
+</p>
 
 ```css
 .parent {
@@ -260,7 +289,9 @@ So justify-content controls how items are laid out on the main axis. What about 
 
 The baseline value is a bit tricky. So let's make sure we understand what that is. Baseline has to do with typography or text. It is the imaginary line where the text sits. If you have the same font size, you really don't visually see a difference. However when you have different font sizes, then the text seems all over the place because the baseline is off. The way to ensure a uniform baseline where all the different sizes of text can rest on is to use the `baseline` value 👍
 
-<p><img src="code-tidbits/16-baseline.png" alt="baseline" width="500"></p>
+<p>
+  <img width="500" alt="Day16" src="https://user-images.githubusercontent.com/30646609/128621296-98f6cf76-2731-436d-9419-ba5e28f8586f.png">
+</p>
 
 <a id="align-items-column"></a>
 
@@ -268,7 +299,9 @@ The baseline value is a bit tricky. So let's make sure we understand what that i
 
 Now let's take a look at how our flex items are aligned if the cross axis is sitting horizontally. In other words, flex-direction is `column`.
 
-<p><img src="code-tidbits/17-align-items-column.png" alt="align-items column" width="500"></p>
+<p>
+  <img width="500" alt="Day17" src="https://user-images.githubusercontent.com/30646609/128621297-eb163421-ae4a-49b6-ab70-1021e8e5718e.png">
+</p>
 
 ```css
 .parent {
@@ -288,7 +321,9 @@ Now let's take a look at how our flex items are aligned if the cross axis is sit
 
 Remember we had `flex-wrap` where we allow flex items to wrap on separate lines. Well, with `align-content` we can control how those row of items are aligned on the cross axis. Since this is only for wrapped items, this property won't have any effect if you only have a singular line of flex items.
 
-<p><img src="code-tidbits/18-align-content.png" alt="align-content" width="500"></p>
+<p>
+  <img width="500" alt="Day18" src="https://user-images.githubusercontent.com/30646609/128621298-c52f9357-cd8f-4918-bca7-533454b68179.png">
+</p>
 
 ```css
 .parent {
@@ -311,7 +346,9 @@ Remember we had `flex-wrap` where we allow flex items to wrap on separate lines.
 
 Yay, you did it! We made it through the parent properties. Up next, let dig into the child properties. Take a breather today, tomorrow we go full speed again 🏎
 
-<p><img src="code-tidbits/19-child-properties.png" alt="Child Properties" width="500"></p>
+<p>
+  <img width="500" alt="Day19" src="https://user-images.githubusercontent.com/30646609/128621299-2a59ea9b-466a-478f-8b10-c9a5725473b9.png">
+</p>
 
 <a id="order"></a>
 
@@ -319,7 +356,9 @@ Yay, you did it! We made it through the parent properties. Up next, let dig into
 
 By default, flex items are displayed in the same order they appear in your code. But what if you want to change that? No problem! Use the `order` property to change the ordering of your items 🔢
 
-<p><img src="code-tidbits/20-order.png" alt="order" width="500"></p>
+<p>
+  <img width="500" alt="Day20" src="https://user-images.githubusercontent.com/30646609/128621300-d2d290df-97c2-43fe-8379-f29954ab9ce0.png">
+</p>
 
 ```css
 .child {
@@ -334,7 +373,9 @@ By default, flex items are displayed in the same order they appear in your code.
 
 I mentioned in the beginning that Flexbox is great for responsive design. This is where it shines. The `flex-grow` property allows our flex item to grow if necessary. So if there is extra free space in my container, I can tell a particular item to fill it up based on some proportion. That's pretty nuts! When I was learning CSS, I remember everything is pretty static. Now with this property, it's like it has its own brain and it will adjust its size depending on the container. That's so great. I don't have to monitor the size. It will adjust accordingly. This was a quite the mind blow for me 🤯
 
-<p><img src="code-tidbits/21-flex-grow.png" alt="flex-grow" width="500"></p>
+<p>
+  <img width="500" alt="Day21" src="https://user-images.githubusercontent.com/30646609/128621301-cb6d08bf-3f63-428c-b553-3ef8f0786a84.png">
+</p>
 
 ```css
 .child {
@@ -349,7 +390,9 @@ I mentioned in the beginning that Flexbox is great for responsive design. This i
 
 Being able to grow and fill the free space is pretty cool. Because we don't set the final width of our flex item, the size it grows to always seem so random to me. So let's look at the math. Honestly you don't need to know this to understand Flexbox. The browser takes care of this automatically for you. But knowing what's behind this sorcery might demystify this process and help you understand it better. It's like once you know the trick to the magic, you're no longer tricked by the magic 😉
 
-<p><img src="code-tidbits/22-flex-grow-calculation.png" alt="flex-grow calculation" width="500"></p>
+<p>
+  <img width="500" alt="Day22" src="https://user-images.githubusercontent.com/30646609/128621302-2efe2283-630e-4ef0-b018-f4cb9f58a208.png">
+</p>
 
 <details>
   <summary><b>Expand to see the calculation</b></summary><br>
@@ -542,7 +585,9 @@ free space    |          |         |         | 400
 
 So `flex-grow` will expand to fill the extra space if there are any. The opposite of that is `flex-shrink`. What happens when you run out of space. This is the property that controls how much your flex items will shrink to fit. Note the larger the number, the more it will shrink 👍
 
-<p><img src="code-tidbits/23-flex-shrink.png" alt="flex-shrink" width="500"></p>
+<p>
+  <img width="500" alt="Day23" src="https://user-images.githubusercontent.com/30646609/128621303-34cfc392-cb25-4a0b-9642-14be8fbf6c6f.png">
+</p>
 
 ```css
 .child {
@@ -559,7 +604,9 @@ This is another optional knowledge. But if you're like me and is curious how the
 
 The math behind `flex-shrink` is a bit more complicated then `flex-grow`. You need to take into account of it's existing proportion and shrink it accordingly to the flex shrink amount. Hence, a few more calculation involved. Again, if this is throwing you off. Skip it. You don't need to know this to understand Flexbox. Luckily the browser takes care of it for you, how wonderful 😌
 
-<p><img src="code-tidbits/24-flex-shrink-calculation.png" alt="flex-shrink calculation" width="500"></p>
+<p>
+  <img width="500" alt="Day24" src="https://user-images.githubusercontent.com/30646609/128621305-ac423b04-bbda-4520-aa83-e68ca8c7d451.png">
+</p>
 
 <details>
   <summary><b>Expand to see the calculation</b></summary><br>
@@ -807,7 +854,9 @@ With the flex-grow and flex-shrink property, we know the flex size changes. With
 
 You may notice I referenced width in my previous formulas. That's because I had not cover flex-basis at that point. So if we want to be **flex** correct, please replace where I mentioned width with flex-basis 😝
 
-<p><img src="code-tidbits/25-flex-basis.png" alt="flex-basis" width="500"></p>
+<p>
+  <img width="500" alt="Day25" src="https://user-images.githubusercontent.com/30646609/128621306-e0713cf8-f07e-44db-8b15-77a0ac1a5565.png">
+</p>
 
 ```css
 .child {
@@ -829,7 +878,9 @@ Here you can see very clearly that when an item has a flex-basis and a width. Th
 
 But watch out, if you also set a `min-width` and `max-width`. In those cases, `flex-basis` will lose and will not be used as the width.
 
-<p><img src="code-tidbits/26-flex-basis-vs-widths.png" alt="flex-basis vs widths" width="500"></p>
+<p>
+  <img width="500" alt="Day26" src="https://user-images.githubusercontent.com/30646609/128621307-99a3f2c5-0d0e-479a-bda7-bcb608e21572.png">
+</p>
 
 <a id="flex"></a>
 
@@ -837,7 +888,9 @@ But watch out, if you also set a `min-width` and `max-width`. In those cases, `f
 
 Sometimes, setting `flex-grow`, `flex-shrink` and `flex-basis` separately are tiring. Well, don't you worry. For the lazy programmers, I mean the efficient programmers 😜  You can set all 3 with the `flex` shorthand. The added bonus of this way is you don't have to set all 3 value, you can skip the properties you're not interested in and just set the one you are. And for the ones you skipped, it will just take on the default value. Awesome 👍
 
-<p><img src="code-tidbits/27-flex.png" alt="flex" width="500"></p>
+<p>
+  <img width="500" alt="Day27" src="https://user-images.githubusercontent.com/30646609/128621308-11d8908f-dac4-415a-a37e-74fa275397f9.png">
+</p>
 
 ```css
 .child {
@@ -856,7 +909,9 @@ Sometimes, setting `flex-grow`, `flex-shrink` and `flex-basis` separately are ti
 
 Remember our `align-items` property where we can set the flex item along the cross axis. The thing with `align-items` is that it forces ALL of the flex items to play with the rules. But what if you want one of them to break the rule. No worries, for  you independent thinkers, you can use `align-self`. This property accepts all of the same values given to `align-items`, so you can easily break from the pack 😎
 
-<p><img src="code-tidbits/28-align-self.png" alt="align-self" width="500"></p>
+<p>
+  <img width="500" alt="Day28" src="https://user-images.githubusercontent.com/30646609/128621309-425b1fa3-b58a-4634-941e-863f84c83cd6.png">
+</p>
 
 ```css
 .child-1 {
@@ -876,7 +931,9 @@ Remember our `align-items` property where we can set the flex item along the cro
 
 YAY!!! You did it! You learned all the properties of Flexbox! You're a Flexbox ninja now! We covered a lot in this short amount of time. Go back and re-visit the ones you still don't understand. Don't just read my Flexbox lessons. Check out other Flexbox tutorials. Sometimes reading a different perspective will help solidify your knowledge and fill in any gaps. Remember the best way to get better is to apply. I gave you the knowledge, now it's on YOU to apply and build something with it 💪
 
-<p><img src="code-tidbits/29-flexbox-properties.png" alt="Flexbox Properties" width="500"></p>
+<p>
+  <img width="500" alt="Day29" src="https://user-images.githubusercontent.com/30646609/128621311-f0ad717b-4207-4950-829a-3275a4db7f63.png">
+</p>
 
 <a id="flexbox-cheatsheet"></a>
 
@@ -886,7 +943,9 @@ Final tidbit! Let me give you one more tidbit for the road. Memorizing all the a
 
 Congratulation for completing Flexbox30! I hope you learned a lot and thank you for letting my tidbits be part of your programming journey 💛
 
-<p><img src="code-tidbits/30-flexbox-cheatsheet.png" alt="Flexbox Cheatsheet" width="500"></p>
+<p>
+  <img width="500" alt="Day30" src="https://user-images.githubusercontent.com/30646609/128621313-2d2dddcc-ca25-4045-a787-8e71680e1817.png">
+</p>
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -896,7 +955,9 @@ Congratulation for completing Flexbox30! I hope you learned a lot and thank you 
 
 Bonus content! Another way to align Flexbox child elements is to use auto margins. Although this isn't a Flexbox property, it's still important to be aware of it because it has a very interesting relationship with Flexbox. Check out my code notes on it if you're interested  👉 [Flexbox: Aligning with Auto Margins](/flexbox-aligning-with-auto-margins/README.md)
 
-<p><img src="code-tidbits/bonus-auto-margins.png" alt="Flexbox Cheatsheet" width="500"></p>
+<p>
+  <img width="500" alt="Day31" src="https://user-images.githubusercontent.com/30646609/128621314-aa6b54f0-5040-4493-9432-3b0c52437b9f.png">
+</p>
 
 <a id="resources"></a>
 
