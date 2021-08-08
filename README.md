@@ -44,6 +44,7 @@ Learn Flexbox in 30 days with 30 code tidbits ✨
 1. [Download & Share](#download-and-share)
 1. [Contribution](#contribution)
 1. [License](#license)
+1. [QuickView](#flexbox-quickView)
 
 ## Flexbox Core Concepts
 
@@ -986,7 +987,12 @@ Bonus content! Another way to align Flexbox child elements is to use auto margin
 
 
 
-# Flex PDF 
+# Flex Quick View
+
+### [QuickView](#flexbox-quickView)
+
+<img width="1250" alt="Screenshot 2021-08-08 at 10 52 02 AM" src="https://user-images.githubusercontent.com/30646609/128621794-29f16e4b-5451-4624-b286-2fe58f841be0.png">
+
 
 
 # Flex Guid
