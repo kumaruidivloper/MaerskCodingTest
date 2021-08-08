@@ -982,45 +982,6 @@ Bonus content! Another way to align Flexbox child elements is to use auto margin
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [Wes Bos: What the Flexbox?!](https://flexbox.io/)
 
-<a id="say-hello"></a>
-
-## 👋 Say Hello
-
-> I share JS, HTML, CSS tidbits every week!
-
-Twitter: [@samantha_ming](https://twitter.com/samantha_ming)  
-Instagram: [@samanthaming](https://www.instagram.com/SamanthaMing/)  
-Facebook: [@hi.samanthaming](https://www.facebook.com/hi.samanthaming/)  
-Medium: [@samanthaming](https://medium.com/@samanthaming)  
-Dev: [@samanthaming](https://dev.to/samanthaming)  
-Official: [samanthaming.com](https://www.samanthaming.com/)
-
-<a id="download-and-share"></a>
-
-## 💖 Download & Share
-
-Absolutely! You are more than welcome to download and share my code tidbits. If you've gotten any value from my content and would like to help me reach more people, please do share!
-
-One thing that I kindly ask is that you don't edit the images or crop my name out. Please leave the images intact. Thank you for choosing to do the right thing 😇
-
-<a id="contribution"></a>
-
-## 🌟 Contribution
-
-~~Yes! Anyone is welcome to contribute to the quality of this content. Please feel free to submit a PR request for typo fixes, spelling corrections, explanation improvements, etc. If you want to help translate the tutorial, that's even cooler! I'm hoping to at least create a Chinese version soon 👩🏻‍🏫~~
-
-(Note: all updates will now appear in the new repo: https://github.com/samanthaming/samanthaming.com)
-
-**[⬆ back to top](#table-of-contents)**
-
-<a id="license"></a>
-
-## 👩🏻‍⚖️ License
-
-Thank you for wanting to share and include my work in your project 😊 If you're wondering how to provide attributions. It simply means don't edit the images. There is attribution automatically built into them. Easy peasy right! So you don't have to provide additional attribution when you share the images ⭐️
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
-
 **[⬆ back to top](#table-of-contents)**
 
 
