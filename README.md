@@ -1011,4 +1011,6 @@ All text content belongs to W3C <a href="https://www.w3.org/TR/css-grid-1">CSS G
 
 https://yoksel.github.io/grid-cheatsheet/
 
+https://yoksel.github.io/flex-cheatsheet/
+
 
