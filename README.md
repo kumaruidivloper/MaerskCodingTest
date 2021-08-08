@@ -45,6 +45,8 @@ Learn Flexbox in 30 days with 30 code tidbits ✨
 1. [Contribution](#contribution)
 1. [License](#license)
 1. [QuickView](#flexbox-quickView)
+1. [Cheatsheet](#flexbox-cheatsheet)
+1. [Flex PDF](#flexbox-pdf)
 
 ## Flexbox Core Concepts
 
@@ -986,6 +988,7 @@ Bonus content! Another way to align Flexbox child elements is to use auto margin
 **[⬆ back to top](#table-of-contents)**
 
 
+<a id="flexbox-quickViewc"></a>
 
 # Flex Quick View
 
@@ -993,15 +996,22 @@ Bonus content! Another way to align Flexbox child elements is to use auto margin
 
 <img width="1250" alt="Screenshot 2021-08-08 at 10 52 02 AM" src="https://user-images.githubusercontent.com/30646609/128621794-29f16e4b-5451-4624-b286-2fe58f841be0.png">
 
-**[⬆ back to top](#flexbox-quickView)**
+**[⬆ back to top](#table-of-contents)**
 
+<a id="flexbox-PDF"></a>
+
+
+
+<a id="flexbox-pdf"></a>
 
 # Flex PDF
 
 [flexboxsheet.pdf](https://github.com/kumaruidivloper/MaerskCodingTest/files/6950274/flexboxsheet.pdf)
 
-**[⬆ back to top](#flexbox-quickView)**
+**[⬆ back to top](#table-of-contents)**
 
+
+<a id="flexbox-cheatsheet"></a>
 
 # Grid Cheatsheet
 
@@ -1012,5 +1022,7 @@ All text content belongs to W3C <a href="https://www.w3.org/TR/css-grid-1">CSS G
 https://yoksel.github.io/grid-cheatsheet/
 
 https://yoksel.github.io/flex-cheatsheet/
+
+**[⬆ back to top](#table-of-contents)**
 
 
